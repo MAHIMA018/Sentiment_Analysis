@@ -6,11 +6,11 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 
-c_token='9NriBVD3LF7OpmuWJrGzwnLd8'
-cs_key='8VGlJhiDOjg9PwbeM3LcNxX8zGmhOAi2qQ5DX6ZaH7h834v3zx'
+c_token='################'
+cs_key='###########################'
 
-a_token='3099487590-nwlZc76JmSRD2lnvfcyV1dzHXhB0JtaAiTMjPbD'
-a_token_secret='DToJ6dYpunFbXOYvh1DRBsqRFiEBPVDYTAL84eRELh0sI'
+a_token='##########################'
+a_token_secret='#############################'
 
 auth=tweepy.OAuthHandler(c_token,cs_key)
 auth.set_access_token(a_token,a_token_secret)
